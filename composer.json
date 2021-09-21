@@ -1,0 +1,29 @@
+{
+    "name": "leafs/experimental",
+    "description": "Leaf PHP experimental modules",
+    "keywords": [
+        "encryption",
+        "sodium",
+        "hashing",
+        "leaf",
+        "php",
+        "framework"
+    ],
+    "homepage": "https://leafphp.netlify.app/#/",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Darko",
+            "email": "mickdd22@gmail.com",
+            "homepage": "https://mychi.netlify.app",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Leaf\\Experiments\\": "src"
+        }
+    },
+    "minimum-stability": "stable"
+}
